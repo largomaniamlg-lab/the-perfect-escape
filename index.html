@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10283F">
+<title>The Perfect Escape</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Perfect Escape">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="preload" as="image" href="img/welcome.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--BODY-START-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="M21 15.5v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V8.5l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z" fill="currentColor"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 14c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M2 19c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-palm" viewBox="0 0 24 24"><path d="M12 22c0-5 .5-9 1.5-12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M13.5 10C11 6 7 5.5 4 7c3 0 6 .8 9.5 3zM13.5 10c1-4 4.5-6 8-5.5-3 .8-5.5 2.6-8 5.5zM13.5 10c-3.5-.5-6.5 1-8 4 2.5-1.6 5-2.4 8-4zM13.5 10c3.5 0 6 2 6.5 5-2-2-4-3.6-6.5-5z" fill="currentColor"/></symbol>
+    <symbol id="i-suitcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M8 7v13M16 7v13" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 8.5 13.5 13.5 8.5 15.5 10.5 10.5z" fill="currentColor"/></symbol>
+      <symbol id="i-sound-on" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-sound-off" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="olive" viewBox="0 0 100 70">
+      <defs><linearGradient id="olive-ink"><stop stop-color="#536348"/><stop offset=".55" stop-color="#87906C"/><stop offset="1" stop-color="#56634A"/></linearGradient></defs>
+      <path d="M16 64Q46 46 78 7M37 46L24 25M49 34L48 13M60 23L85 25M25 57L46 59" fill="none" stroke="#6F795A" stroke-width=".85" stroke-linecap="round"/>
+      <g fill="url(#olive-ink)">
+        <path d="M26 42Q12 30 19 12Q31 27 26 42ZM39 40Q31 22 40 6Q46 25 39 40ZM49 29Q47 11 57 1Q59 17 49 29ZM61 22Q62 6 78 0Q73 16 61 22ZM70 13Q81 0 96 1Q85 13 70 13ZM32 50Q43 40 60 45Q46 55 32 50ZM49 35Q62 27 80 34Q64 42 49 35ZM62 23Q75 15 95 24Q77 30 62 23ZM25 58Q37 54 48 66Q33 66 25 58Z"/>
+      </g>
+      <g fill="#77804E"><ellipse cx="44" cy="50" rx="4" ry="2.5" transform="rotate(25 44 50)"/><ellipse cx="62" cy="33" rx="4.5" ry="2.6" transform="rotate(20 62 33)"/></g>
+    </symbol>
+    <symbol id="boat-art" viewBox="0 -18 120 108">
+      <path d="M58 -16v76" stroke="#10283F" stroke-width="3"/>
+      <path d="M61 12c18 10 26 26 26 44H61z" fill="#FFFCF5" stroke="#10283F" stroke-width="2"/>
+      <path d="M55 20C44 30 38 42 38 56h17z" fill="#D7A85E"/>
+      <path d="M14 62h92l-12 18H28z" fill="#10283F"/>
+      <path d="M22 68h76" stroke="#087EAD" stroke-width="2"/>
+    </symbol>
+  </defs>
+</svg>
+
+<button class="sound-toggle on-light" id="sound-toggle" type="button" aria-pressed="false" aria-label="Turn sound on">
+  <svg class="ico-off"><use href="#i-sound-off"/></svg><svg class="ico-on"><use href="#i-sound-on"/></svg>
+</button>
+
+<button class="sound-toggle music-toggle on-light" id="music-toggle" type="button" aria-pressed="false" aria-label="Play music" title="Play music">
+  <svg class="music-note" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 17V5l10-2v12M10 8l10-2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="7" cy="17" rx="3" ry="2.3" fill="currentColor"/><ellipse cx="17" cy="15" rx="3" ry="2.3" fill="currentColor"/></svg>
+  <svg class="music-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6v12M16 6v12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+</button>
+
+<main id="app" aria-live="polite">
+
+  <!-- SCREEN 0 — BIRTHDAY ENVELOPE + LETTER (texts come from CONFIG.birthday) -->
+  <section class="screen is-active" id="s-envelope" aria-labelledby="env-title">
+    <div class="env-stage paper-tex" id="env-stage"><svg class="stationery-frame" viewBox="0 0 400 640" preserveAspectRatio="none" aria-hidden="true"><path d="M18 1H382Q382 18 399 18V622Q382 622 382 639H18Q18 622 1 622V18Q18 18 18 1Z" fill="none" stroke="currentColor" stroke-width=".7" vector-effect="non-scaling-stroke"/></svg>
+      <div class="env-intro"><svg class="intro-sprig" aria-hidden="true"><use href="#olive"/></svg>
+        <p class="env-for">For <span data-cfg="passenger">Mamasita</span></p>
+        <span class="env-rule" aria-hidden="true"></span>
+        <h1 class="env-title" id="env-title">Happy Birthday</h1>
+        <p class="env-sub" id="env-sub">A little something for you.</p>
+      </div>
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open your letter">
+        <div class="env-back"></div>
+        <div class="env-paper paper-tex" aria-hidden="true"><svg class="sprig"><use href="#olive"/></svg><i></i><i></i><i></i></div>
+        <div class="env-front" aria-hidden="true"></div>
+        <div class="env-flap" aria-hidden="true"><svg viewBox="0 0 300 124" preserveAspectRatio="none"><defs><linearGradient id="flap-paper" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#FAF6EF"/><stop offset=".72" stop-color="#EFE7D8"/><stop offset="1" stop-color="#E5DBC8"/></linearGradient><filter id="flap-grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".10"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter></defs><path d="M0 0H300L166 112Q150 127 134 112Z" fill="url(#flap-paper)" filter="url(#flap-grain)"/><path d="M0 0L134 112Q150 127 166 112L300 0" fill="none" stroke="#C7BAA4" stroke-opacity=".35" stroke-width=".7"/></svg></div>
+        <svg class="env-sprig" aria-hidden="true"><use href="#olive"/></svg>
+      </div>
+      <button class="btn-line" id="btn-open" type="button">Open your letter</button>
+    </div>
+
+    <article class="letter paper-tex" id="letter" tabindex="-1" aria-labelledby="letter-title" hidden><svg class="stationery-frame" viewBox="0 0 400 640" preserveAspectRatio="none" aria-hidden="true"><path d="M18 1H382Q382 18 399 18V622Q382 622 382 639H18Q18 622 1 622V18Q18 18 18 1Z" fill="none" stroke="currentColor" stroke-width=".7" vector-effect="non-scaling-stroke"/></svg>
+      <svg class="letter-sprig" aria-hidden="true"><use href="#olive"/></svg>
+      <span class="letter-rule" aria-hidden="true"></span>
+      <h2 class="letter-title" id="letter-title">Happy Birthday</h2>
+      <div class="letter-body" id="letter-body"></div>
+      <button class="btn-line btn-line-italic" id="btn-surprise" type="button">Discover your surprise →</button>
+      <div class="letter-foot" aria-hidden="true"><span></span><svg><use href="#olive"/></svg><span></span></div>
+    </article>
+  </section>
+
+  <!-- SCREEN 1 — WELCOME -->
+  <section class="screen dark" id="s-welcome" aria-labelledby="welcome-title">
+    <div class="photo-bg welcome-bg" aria-hidden="true"><div class="photo-img" data-img="welcome"></div></div>
+    <div class="welcome-content">
+      <p class="eyebrow gold-text">For <span data-cfg="passenger">Mamasita</span></p>
+      <h1 id="welcome-title" class="welcome-title" tabindex="-1"><span class="wt-line">THE PERFECT</span> <span class="wt-line">ESCAPE</span></h1>
+      <span class="gold-rule" aria-hidden="true"></span>
+      <p class="welcome-sub">Some adventures begin with a simple question.</p>
+      <p class="welcome-small mono">5 little questions · 1 unforgettable surprise</p>
+      <button class="btn btn-gold" id="btn-start" type="button">LET'S BEGIN →</button>
+    </div>
+  </section>
+
+  <!-- SCREEN 2 — QUESTIONS -->
+  <section class="screen" id="s-questions" data-q="wine" aria-labelledby="q-text">
+    <header class="q-head">
+      <div class="q-meta">
+        <span class="mono" id="q-count">Question 1 of 5</span>
+        <span class="mono q-code">PE 2026 · Pre-flight check</span>
+      </div>
+      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="progress">
+        <div class="progress-fill" id="progress-fill"></div>
+        <span class="stop" style="--p:20%"></span><span class="stop" style="--p:40%"></span><span class="stop" style="--p:60%"></span><span class="stop" style="--p:80%"></span><span class="stop" style="--p:100%"></span>
+        <svg class="progress-plane" id="progress-plane" aria-hidden="true"><use href="#i-plane"/></svg>
+      </div>
+    </header>
+
+    <div class="card-stage">
+      <div class="card-wrap">
+        <div class="card-ghost ghost-2" id="ghost-2" aria-hidden="true"></div>
+        <div class="card-ghost ghost-1" id="ghost-1" aria-hidden="true"></div>
+        <article class="q-card" id="q-card">
+          <div class="q-media" id="q-media" aria-hidden="true">
+            <!-- 01 wine -->
+            <div class="scene scene-wine">
+              <div class="photo-img kb" data-img="wine"></div>
+              <div class="tint wine-tint"></div>
+              <div class="glint-sweep"></div>
+            </div>
+            <!-- 02 sun -->
+            <div class="scene scene-sun">
+              <div class="photo-img kb" data-img="sun"></div>
+              <div class="tint sun-tint"></div>
+              <div class="sun-rise"><span class="sun-disc"></span><span class="sun-rays"></span></div>
+            </div>
+            <!-- 03 food -->
+            <div class="scene scene-food">
+              <div class="photo-img kb" data-img="food"></div>
+              <div class="food-art">
+                <svg viewBox="0 0 240 150" aria-hidden="true">
+                  <ellipse cx="120" cy="86" rx="92" ry="44" fill="#FFFCF5"/>
+                  <ellipse cx="120" cy="86" rx="72" ry="33" fill="none" stroke="#E9DCC6" stroke-width="2"/>
+                  <path class="steak" d="M78 80c4-18 30-26 52-22 20 3 34 12 32 26-2 14-24 20-46 18-24-2-42-8-38-22z" fill="#7A3B2A"/>
+                  <path d="M92 76l50 16M100 68l50 16M90 86l40 13" stroke="#5A2618" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+                  <path d="M104 70c8-3 18-3 26 0" stroke="#F2D9B8" stroke-width="3" stroke-linecap="round" fill="none" opacity=".8"/>
+                  <circle cx="160" cy="100" r="6" fill="#4F7A3A"/><circle cx="168" cy="94" r="5" fill="#5E8C45"/><circle cx="153" cy="94" r="4" fill="#6E9C52"/>
+                  <path d="M196 40v80M204 40v24c0 6-8 6-8 0" stroke="#D7A85E" stroke-width="3" stroke-linecap="round" fill="none"/>
+                  <path d="M40 40c0 16 0 24 6 30v50M34 40v20M46 40v20" stroke="#D7A85E" stroke-width="3" stroke-linecap="round" fill="none"/>
+                </svg>
+                <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span>
+              </div>
+            </div>
+            <!-- 04 beach -->
+            <div class="scene scene-beach">
+              <div class="photo-img kb" data-img="beach"></div>
+              <svg class="beach-waves" viewBox="0 0 400 60" preserveAspectRatio="none">
+                <path class="bw bw1" d="M0 30c25 0 25-10 50-10s25 10 50 10 25-10 50-10 25 10 50 10 25-10 50-10 25 10 50 10 25-10 50-10 25 10 50 10 25-10 50-10 25 10 50 10v40H0z"/>
+                <path class="bw bw2" d="M0 40c25 0 25-8 50-8s25 8 50 8 25-8 50-8 25 8 50 8 25-8 50-8 25 8 50 8 25-8 50-8 25 8 50 8 25-8 50-8 25 8 50 8v30H0z"/>
+              </svg>
+            </div>
+            <!-- 05 boat -->
+            <div class="scene scene-boat">
+              <div class="calm-sky"></div>
+              <span class="calm-sun"></span>
+              <svg class="calm-boat" viewBox="0 -18 120 108"><use href="#boat-art"/></svg>
+              <svg class="calm-sea" viewBox="0 0 400 60" preserveAspectRatio="none">
+                <path class="cw" d="M0 22c25 0 25-6 50-6s25 6 50 6 25-6 50-6 25 6 50 6 25-6 50-6 25 6 50 6 25-6 50-6 25 6 50 6 25-6 50-6 25 6 50 6v40H0z"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="medallion" id="medallion" aria-hidden="true">
+            <svg class="m-icon m-wine" viewBox="0 0 48 48">
+              <defs><clipPath id="glass-clip"><path d="M14 8h20c0 10-2 18-10 18S14 18 14 8z"/></clipPath></defs>
+              <rect class="wine-fill" x="12" y="8" width="24" height="20" fill="#7B1E30" clip-path="url(#glass-clip)"/>
+              <path d="M14 8h20c0 10-2 18-10 18S14 18 14 8zM24 26v12M17 40h14" fill="none" stroke="#10283F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg class="m-icon m-sun" viewBox="0 0 48 48"><circle cx="24" cy="24" r="7" fill="#D7A85E"/><g class="m-rays" stroke="#D7A85E" stroke-width="2.2" stroke-linecap="round"><path d="M24 8v5M24 35v5M8 24h5M35 24h5M12.7 12.7l3.5 3.5M31.8 31.8l3.5 3.5M12.7 35.3l3.5-3.5M31.8 16.2l3.5-3.5"/></g></svg>
+            <svg class="m-icon m-food" viewBox="0 0 48 48"><ellipse cx="24" cy="28" rx="14" ry="7" fill="none" stroke="#10283F" stroke-width="2"/><path d="M17 26c1-4 6-6 10-5 4 1 6 3 5 5s-5 4-9 3-7-1-6-3z" fill="#7A3B2A"/><path d="M10 10v12M38 10v14" stroke="#D7A85E" stroke-width="2" stroke-linecap="round"/></svg>
+            <svg class="m-icon m-beach" viewBox="0 0 48 48"><path d="M6 30c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3 3 3 6 3M6 37c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3 3 3 6 3" fill="none" stroke="#087EAD" stroke-width="2.2" stroke-linecap="round"/><circle cx="33" cy="15" r="5" fill="#D7A85E"/></svg>
+            <svg class="m-icon m-boat" viewBox="0 0 48 48"><path d="M24 8v22" stroke="#10283F" stroke-width="2"/><path d="M25 10c7 4 10 10 10 18H25z" fill="#10283F"/><path d="M23 14c-4 4-6 9-6 14h6z" fill="#D7A85E"/><path d="M9 32h30l-4 6H13z" fill="#087EAD"/></svg>
+          </div>
+
+          <div class="q-body">
+            <p class="q-kicker mono" aria-hidden="true"><b id="q-num">01</b> <span id="q-theme">Wine</span></p>
+            <h2 class="q-text" id="q-text">Do you enjoy a good glass of wine?</h2>
+            <p class="q-reaction" id="q-reaction" aria-live="polite"></p>
+          </div>
+          <div class="q-stamp" id="q-stamp" aria-hidden="true"></div>
+          <div class="burst" id="burst" aria-hidden="true"></div>
+        </article>
+      </div>
+    </div>
+
+    <div class="answers">
+      <button class="btn btn-yes" id="btn-yes" type="button">YES! 😍</button>
+      <button class="btn btn-no" id="btn-no" type="button">NOPE 🙃</button>
+    </div>
+  </section>
+
+  <!-- SCREEN 3 — BOAT JOKE -->
+  <section class="screen" id="s-boat" aria-labelledby="boat-line-1">
+    <div class="boat-text" aria-live="polite">
+      <h2 class="display boat-line" id="boat-line-1">Oh, I thought about that. 😉</h2>
+      <p class="boat-line boat-line-2" id="boat-line-2">Don't worry. I had a Plan B all along. ✈️</p>
+      <p class="display boat-line boat-line-3" id="boat-line-3">Good news... we're flying!</p>
+    </div>
+
+    <div class="horizon" id="horizon" aria-hidden="true">
+      <div class="sky-sun"></div>
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="boat" id="boat">
+        <div class="boat-rock">
+          <svg viewBox="0 -18 120 108" width="120" height="108"><use href="#boat-art"/></svg>
+        </div>
+      </div>
+      <div class="plane-in" id="plane-in">
+        <span class="contrail"></span>
+        <svg viewBox="0 0 24 24" width="64" height="64"><use href="#i-plane"/></svg>
+      </div>
+      <div class="sea">
+        <svg class="wave w-back" viewBox="0 0 400 40" preserveAspectRatio="none"><path d="M0 20c25 0 25-10 50-10s25 10 50 10 25-10 50-10 25 10 50 10 25-10 50-10 25 10 50 10 25-10 50-10 25 10 50 10v20H0z" fill="currentColor"/></svg>
+        <svg class="wave w-front" viewBox="0 0 400 40" preserveAspectRatio="none"><path d="M0 20c25 0 25-10 50-10s25 10 50 10 25-10 50-10 25 10 50 10 25-10 50-10 25 10 50 10 25-10 50-10 25 10 50 10v20H0z" fill="currentColor"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREEN 4 — ANALYSING -->
+  <section class="screen dark" id="s-analyse" aria-labelledby="analyse-msg">
+    <div class="scanlines" aria-hidden="true"><span class="scan-beam"></span></div>
+    <p class="mono analyse-label">Private concierge · Destination matching</p>
+    <div class="lounge" aria-hidden="true">
+      <div class="lounge-top mono"><span id="lounge-state">Scanning coastlines</span><span><b id="match-pct">0</b>% match</span></div>
+      <div class="flap" id="flap"></div>
+      <p class="flap-note" id="flap-note">Reading your answers…</p>
+      <div class="match-bar"><span id="match-bar"></span></div>
+    </div>
+    <h2 class="analyse-msg" id="analyse-msg">Analysing your answers...</h2>
+    <ul class="checklist" id="checklist">
+      <li>Answers received</li>
+      <li>Sunshine: 320 days a year</li>
+      <li>Food: tapas, grilled fish, good steak</li>
+      <li>Beach: within walking distance</li>
+      <li>Transport: Plan B, by air</li>
+    </ul>
+  </section>
+
+  <!-- SCREEN 5 — FLIGHT ROUTE -->
+  <section class="screen dark" id="s-route" aria-labelledby="route-title">
+    <p class="mono analyse-label">Flight plan · PE 2026</p>
+    <h2 class="route-title" id="route-title">Heading south<span class="dots-anim">…</span></h2>
+    <div class="map-wrap" aria-hidden="true">
+      <svg class="europe" viewBox="0 0 300 345">
+        <path class="land" d="M165.0 3.0h0M171.0 3.0h0M177.0 3.0h0M183.0 3.0h0M189.0 3.0h0M195.0 3.0h0M201.0 3.0h0M207.0 3.0h0M213.0 3.0h0M219.0 3.0h0M225.0 3.0h0M255.0 3.0h0M261.0 3.0h0M267.0 3.0h0M273.0 3.0h0M279.0 3.0h0M285.0 3.0h0M156.0 9.0h0M162.0 9.0h0M168.0 9.0h0M174.0 9.0h0M180.0 9.0h0M186.0 9.0h0M192.0 9.0h0M198.0 9.0h0M204.0 9.0h0M210.0 9.0h0M216.0 9.0h0M222.0 9.0h0M252.0 9.0h0M258.0 9.0h0M264.0 9.0h0M270.0 9.0h0M276.0 9.0h0M282.0 9.0h0M153.0 15.0h0M159.0 15.0h0M165.0 15.0h0M171.0 15.0h0M177.0 15.0h0M183.0 15.0h0M189.0 15.0h0M195.0 15.0h0M201.0 15.0h0M207.0 15.0h0M213.0 15.0h0M219.0 15.0h0M249.0 15.0h0M255.0 15.0h0M261.0 15.0h0M267.0 15.0h0M273.0 15.0h0M279.0 15.0h0M285.0 15.0h0M144.0 21.0h0M150.0 21.0h0M156.0 21.0h0M162.0 21.0h0M168.0 21.0h0M174.0 21.0h0M180.0 21.0h0M186.0 21.0h0M192.0 21.0h0M198.0 21.0h0M204.0 21.0h0M210.0 21.0h0M246.0 21.0h0M252.0 21.0h0M258.0 21.0h0M264.0 21.0h0M270.0 21.0h0M276.0 21.0h0M282.0 21.0h0M288.0 21.0h0M141.0 27.0h0M147.0 27.0h0M153.0 27.0h0M159.0 27.0h0M165.0 27.0h0M171.0 27.0h0M177.0 27.0h0M183.0 27.0h0M189.0 27.0h0M195.0 27.0h0M201.0 27.0h0M207.0 27.0h0M237.0 27.0h0M243.0 27.0h0M249.0 27.0h0M255.0 27.0h0M261.0 27.0h0M267.0 27.0h0M273.0 27.0h0M279.0 27.0h0M285.0 27.0h0M291.0 27.0h0M132.0 33.0h0M138.0 33.0h0M144.0 33.0h0M150.0 33.0h0M156.0 33.0h0M162.0 33.0h0M168.0 33.0h0M174.0 33.0h0M180.0 33.0h0M186.0 33.0h0M192.0 33.0h0M198.0 33.0h0M204.0 33.0h0M234.0 33.0h0M240.0 33.0h0M246.0 33.0h0M252.0 33.0h0M258.0 33.0h0M264.0 33.0h0M270.0 33.0h0M276.0 33.0h0M282.0 33.0h0M288.0 33.0h0M294.0 33.0h0M129.0 39.0h0M135.0 39.0h0M141.0 39.0h0M147.0 39.0h0M153.0 39.0h0M159.0 39.0h0M165.0 39.0h0M171.0 39.0h0M177.0 39.0h0M183.0 39.0h0M189.0 39.0h0M195.0 39.0h0M201.0 39.0h0M231.0 39.0h0M237.0 39.0h0M243.0 39.0h0M249.0 39.0h0M255.0 39.0h0M261.0 39.0h0M267.0 39.0h0M273.0 39.0h0M279.0 39.0h0M285.0 39.0h0M291.0 39.0h0M120.0 45.0h0M126.0 45.0h0M132.0 45.0h0M138.0 45.0h0M144.0 45.0h0M150.0 45.0h0M156.0 45.0h0M162.0 45.0h0M168.0 45.0h0M174.0 45.0h0M180.0 45.0h0M186.0 45.0h0M192.0 45.0h0M198.0 45.0h0M234.0 45.0h0M240.0 45.0h0M246.0 45.0h0M252.0 45.0h0M258.0 45.0h0M264.0 45.0h0M270.0 45.0h0M276.0 45.0h0M282.0 45.0h0M288.0 45.0h0M117.0 51.0h0M123.0 51.0h0M129.0 51.0h0M135.0 51.0h0M141.0 51.0h0M147.0 51.0h0M153.0 51.0h0M159.0 51.0h0M165.0 51.0h0M171.0 51.0h0M177.0 51.0h0M183.0 51.0h0M189.0 51.0h0M195.0 51.0h0M231.0 51.0h0M237.0 51.0h0M243.0 51.0h0M249.0 51.0h0M255.0 51.0h0M261.0 51.0h0M267.0 51.0h0M273.0 51.0h0M279.0 51.0h0M285.0 51.0h0M120.0 57.0h0M126.0 57.0h0M132.0 57.0h0M138.0 57.0h0M144.0 57.0h0M150.0 57.0h0M156.0 57.0h0M162.0 57.0h0M168.0 57.0h0M174.0 57.0h0M180.0 57.0h0M186.0 57.0h0M192.0 57.0h0M198.0 57.0h0M228.0 57.0h0M234.0 57.0h0M240.0 57.0h0M246.0 57.0h0M252.0 57.0h0M258.0 57.0h0M264.0 57.0h0M270.0 57.0h0M276.0 57.0h0M282.0 57.0h0M288.0 57.0h0M117.0 63.0h0M123.0 63.0h0M129.0 63.0h0M135.0 63.0h0M141.0 63.0h0M147.0 63.0h0M153.0 63.0h0M159.0 63.0h0M165.0 63.0h0M171.0 63.0h0M177.0 63.0h0M183.0 63.0h0M189.0 63.0h0M195.0 63.0h0M231.0 63.0h0M237.0 63.0h0M243.0 63.0h0M249.0 63.0h0M255.0 63.0h0M261.0 63.0h0M267.0 63.0h0M273.0 63.0h0M120.0 69.0h0M126.0 69.0h0M132.0 69.0h0M138.0 69.0h0M144.0 69.0h0M150.0 69.0h0M156.0 69.0h0M162.0 69.0h0M168.0 69.0h0M174.0 69.0h0M180.0 69.0h0M186.0 69.0h0M192.0 69.0h0M198.0 69.0h0M204.0 69.0h0M234.0 69.0h0M240.0 69.0h0M246.0 69.0h0M252.0 69.0h0M258.0 69.0h0M117.0 75.0h0M123.0 75.0h0M129.0 75.0h0M135.0 75.0h0M141.0 75.0h0M147.0 75.0h0M153.0 75.0h0M159.0 75.0h0M165.0 75.0h0M171.0 75.0h0M177.0 75.0h0M183.0 75.0h0M189.0 75.0h0M195.0 75.0h0M201.0 75.0h0M207.0 75.0h0M297.0 75.0h0M120.0 81.0h0M126.0 81.0h0M132.0 81.0h0M138.0 81.0h0M144.0 81.0h0M150.0 81.0h0M156.0 81.0h0M162.0 81.0h0M168.0 81.0h0M174.0 81.0h0M180.0 81.0h0M186.0 81.0h0M192.0 81.0h0M198.0 81.0h0M204.0 81.0h0M270.0 81.0h0M276.0 81.0h0M282.0 81.0h0M288.0 81.0h0M294.0 81.0h0M123.0 87.0h0M129.0 87.0h0M135.0 87.0h0M141.0 87.0h0M147.0 87.0h0M159.0 87.0h0M165.0 87.0h0M171.0 87.0h0M177.0 87.0h0M183.0 87.0h0M189.0 87.0h0M195.0 87.0h0M201.0 87.0h0M249.0 87.0h0M255.0 87.0h0M261.0 87.0h0M267.0 87.0h0M273.0 87.0h0M279.0 87.0h0M285.0 87.0h0M291.0 87.0h0M297.0 87.0h0M48.0 93.0h0M54.0 93.0h0M60.0 93.0h0M126.0 93.0h0M132.0 93.0h0M138.0 93.0h0M162.0 93.0h0M168.0 93.0h0M174.0 93.0h0M180.0 93.0h0M186.0 93.0h0M192.0 93.0h0M246.0 93.0h0M252.0 93.0h0M258.0 93.0h0M264.0 93.0h0M270.0 93.0h0M276.0 93.0h0M282.0 93.0h0M288.0 93.0h0M294.0 93.0h0M45.0 99.0h0M51.0 99.0h0M57.0 99.0h0M123.0 99.0h0M129.0 99.0h0M135.0 99.0h0M165.0 99.0h0M171.0 99.0h0M177.0 99.0h0M183.0 99.0h0M189.0 99.0h0M243.0 99.0h0M249.0 99.0h0M255.0 99.0h0M261.0 99.0h0M267.0 99.0h0M273.0 99.0h0M279.0 99.0h0M285.0 99.0h0M291.0 99.0h0M297.0 99.0h0M42.0 105.0h0M48.0 105.0h0M54.0 105.0h0M60.0 105.0h0M168.0 105.0h0M174.0 105.0h0M180.0 105.0h0M186.0 105.0h0M192.0 105.0h0M246.0 105.0h0M252.0 105.0h0M258.0 105.0h0M264.0 105.0h0M270.0 105.0h0M276.0 105.0h0M282.0 105.0h0M288.0 105.0h0M294.0 105.0h0M45.0 111.0h0M51.0 111.0h0M57.0 111.0h0M63.0 111.0h0M147.0 111.0h0M153.0 111.0h0M171.0 111.0h0M177.0 111.0h0M183.0 111.0h0M189.0 111.0h0M243.0 111.0h0M249.0 111.0h0M255.0 111.0h0M261.0 111.0h0M267.0 111.0h0M273.0 111.0h0M279.0 111.0h0M285.0 111.0h0M291.0 111.0h0M297.0 111.0h0M48.0 117.0h0M54.0 117.0h0M60.0 117.0h0M66.0 117.0h0M138.0 117.0h0M144.0 117.0h0M150.0 117.0h0M168.0 117.0h0M174.0 117.0h0M180.0 117.0h0M186.0 117.0h0M192.0 117.0h0M228.0 117.0h0M234.0 117.0h0M240.0 117.0h0M246.0 117.0h0M252.0 117.0h0M258.0 117.0h0M264.0 117.0h0M270.0 117.0h0M276.0 117.0h0M282.0 117.0h0M288.0 117.0h0M294.0 117.0h0M45.0 123.0h0M51.0 123.0h0M57.0 123.0h0M63.0 123.0h0M69.0 123.0h0M141.0 123.0h0M147.0 123.0h0M171.0 123.0h0M177.0 123.0h0M183.0 123.0h0M189.0 123.0h0M231.0 123.0h0M237.0 123.0h0M243.0 123.0h0M249.0 123.0h0M255.0 123.0h0M261.0 123.0h0M267.0 123.0h0M273.0 123.0h0M279.0 123.0h0M285.0 123.0h0M291.0 123.0h0M297.0 123.0h0M42.0 129.0h0M48.0 129.0h0M54.0 129.0h0M60.0 129.0h0M66.0 129.0h0M138.0 129.0h0M144.0 129.0h0M150.0 129.0h0M162.0 129.0h0M174.0 129.0h0M228.0 129.0h0M234.0 129.0h0M240.0 129.0h0M246.0 129.0h0M252.0 129.0h0M258.0 129.0h0M264.0 129.0h0M270.0 129.0h0M276.0 129.0h0M282.0 129.0h0M288.0 129.0h0M294.0 129.0h0M33.0 135.0h0M45.0 135.0h0M51.0 135.0h0M57.0 135.0h0M63.0 135.0h0M69.0 135.0h0M141.0 135.0h0M147.0 135.0h0M159.0 135.0h0M165.0 135.0h0M225.0 135.0h0M231.0 135.0h0M237.0 135.0h0M243.0 135.0h0M249.0 135.0h0M255.0 135.0h0M261.0 135.0h0M267.0 135.0h0M273.0 135.0h0M279.0 135.0h0M285.0 135.0h0M291.0 135.0h0M297.0 135.0h0M24.0 141.0h0M30.0 141.0h0M36.0 141.0h0M60.0 141.0h0M66.0 141.0h0M72.0 141.0h0M144.0 141.0h0M150.0 141.0h0M210.0 141.0h0M216.0 141.0h0M222.0 141.0h0M228.0 141.0h0M234.0 141.0h0M240.0 141.0h0M246.0 141.0h0M252.0 141.0h0M258.0 141.0h0M264.0 141.0h0M270.0 141.0h0M276.0 141.0h0M282.0 141.0h0M288.0 141.0h0M294.0 141.0h0M15.0 147.0h0M21.0 147.0h0M27.0 147.0h0M33.0 147.0h0M39.0 147.0h0M63.0 147.0h0M69.0 147.0h0M75.0 147.0h0M81.0 147.0h0M141.0 147.0h0M147.0 147.0h0M153.0 147.0h0M189.0 147.0h0M195.0 147.0h0M201.0 147.0h0M207.0 147.0h0M213.0 147.0h0M219.0 147.0h0M225.0 147.0h0M231.0 147.0h0M237.0 147.0h0M243.0 147.0h0M249.0 147.0h0M255.0 147.0h0M261.0 147.0h0M267.0 147.0h0M273.0 147.0h0M279.0 147.0h0M285.0 147.0h0M291.0 147.0h0M297.0 147.0h0M18.0 153.0h0M24.0 153.0h0M30.0 153.0h0M36.0 153.0h0M66.0 153.0h0M72.0 153.0h0M78.0 153.0h0M138.0 153.0h0M144.0 153.0h0M150.0 153.0h0M156.0 153.0h0M162.0 153.0h0M168.0 153.0h0M174.0 153.0h0M180.0 153.0h0M186.0 153.0h0M192.0 153.0h0M198.0 153.0h0M204.0 153.0h0M210.0 153.0h0M216.0 153.0h0M222.0 153.0h0M228.0 153.0h0M234.0 153.0h0M240.0 153.0h0M246.0 153.0h0M252.0 153.0h0M258.0 153.0h0M264.0 153.0h0M270.0 153.0h0M276.0 153.0h0M282.0 153.0h0M288.0 153.0h0M294.0 153.0h0M15.0 159.0h0M21.0 159.0h0M27.0 159.0h0M33.0 159.0h0M39.0 159.0h0M63.0 159.0h0M69.0 159.0h0M75.0 159.0h0M81.0 159.0h0M123.0 159.0h0M129.0 159.0h0M135.0 159.0h0M141.0 159.0h0M147.0 159.0h0M153.0 159.0h0M159.0 159.0h0M165.0 159.0h0M171.0 159.0h0M177.0 159.0h0M183.0 159.0h0M189.0 159.0h0M195.0 159.0h0M201.0 159.0h0M207.0 159.0h0M213.0 159.0h0M219.0 159.0h0M225.0 159.0h0M231.0 159.0h0M237.0 159.0h0M243.0 159.0h0M249.0 159.0h0M255.0 159.0h0M261.0 159.0h0M267.0 159.0h0M273.0 159.0h0M279.0 159.0h0M285.0 159.0h0M291.0 159.0h0M297.0 159.0h0M18.0 165.0h0M24.0 165.0h0M30.0 165.0h0M36.0 165.0h0M54.0 165.0h0M60.0 165.0h0M66.0 165.0h0M72.0 165.0h0M78.0 165.0h0M84.0 165.0h0M90.0 165.0h0M114.0 165.0h0M120.0 165.0h0M126.0 165.0h0M132.0 165.0h0M138.0 165.0h0M144.0 165.0h0M150.0 165.0h0M156.0 165.0h0M162.0 165.0h0M168.0 165.0h0M174.0 165.0h0M180.0 165.0h0M186.0 165.0h0M192.0 165.0h0M198.0 165.0h0M204.0 165.0h0M210.0 165.0h0M216.0 165.0h0M222.0 165.0h0M228.0 165.0h0M234.0 165.0h0M240.0 165.0h0M246.0 165.0h0M252.0 165.0h0M258.0 165.0h0M264.0 165.0h0M270.0 165.0h0M276.0 165.0h0M282.0 165.0h0M288.0 165.0h0M294.0 165.0h0M15.0 171.0h0M21.0 171.0h0M27.0 171.0h0M33.0 171.0h0M57.0 171.0h0M63.0 171.0h0M69.0 171.0h0M75.0 171.0h0M81.0 171.0h0M87.0 171.0h0M111.0 171.0h0M117.0 171.0h0M123.0 171.0h0M129.0 171.0h0M135.0 171.0h0M141.0 171.0h0M147.0 171.0h0M153.0 171.0h0M159.0 171.0h0M165.0 171.0h0M171.0 171.0h0M177.0 171.0h0M183.0 171.0h0M189.0 171.0h0M195.0 171.0h0M201.0 171.0h0M207.0 171.0h0M213.0 171.0h0M219.0 171.0h0M225.0 171.0h0M231.0 171.0h0M237.0 171.0h0M243.0 171.0h0M249.0 171.0h0M255.0 171.0h0M261.0 171.0h0M267.0 171.0h0M273.0 171.0h0M279.0 171.0h0M285.0 171.0h0M291.0 171.0h0M297.0 171.0h0M54.0 177.0h0M60.0 177.0h0M66.0 177.0h0M72.0 177.0h0M78.0 177.0h0M84.0 177.0h0M90.0 177.0h0M108.0 177.0h0M114.0 177.0h0M120.0 177.0h0M126.0 177.0h0M132.0 177.0h0M138.0 177.0h0M144.0 177.0h0M150.0 177.0h0M156.0 177.0h0M162.0 177.0h0M168.0 177.0h0M174.0 177.0h0M180.0 177.0h0M186.0 177.0h0M192.0 177.0h0M198.0 177.0h0M204.0 177.0h0M210.0 177.0h0M216.0 177.0h0M222.0 177.0h0M228.0 177.0h0M234.0 177.0h0M240.0 177.0h0M246.0 177.0h0M252.0 177.0h0M258.0 177.0h0M264.0 177.0h0M270.0 177.0h0M276.0 177.0h0M282.0 177.0h0M288.0 177.0h0M294.0 177.0h0M57.0 183.0h0M63.0 183.0h0M69.0 183.0h0M75.0 183.0h0M81.0 183.0h0M99.0 183.0h0M105.0 183.0h0M111.0 183.0h0M117.0 183.0h0M123.0 183.0h0M129.0 183.0h0M135.0 183.0h0M141.0 183.0h0M147.0 183.0h0M153.0 183.0h0M159.0 183.0h0M165.0 183.0h0M171.0 183.0h0M177.0 183.0h0M183.0 183.0h0M189.0 183.0h0M195.0 183.0h0M201.0 183.0h0M207.0 183.0h0M213.0 183.0h0M219.0 183.0h0M225.0 183.0h0M231.0 183.0h0M237.0 183.0h0M243.0 183.0h0M249.0 183.0h0M255.0 183.0h0M261.0 183.0h0M267.0 183.0h0M273.0 183.0h0M279.0 183.0h0M285.0 183.0h0M291.0 183.0h0M297.0 183.0h0M48.0 189.0h0M54.0 189.0h0M90.0 189.0h0M96.0 189.0h0M102.0 189.0h0M108.0 189.0h0M114.0 189.0h0M120.0 189.0h0M126.0 189.0h0M132.0 189.0h0M138.0 189.0h0M144.0 189.0h0M150.0 189.0h0M156.0 189.0h0M162.0 189.0h0M168.0 189.0h0M174.0 189.0h0M180.0 189.0h0M186.0 189.0h0M192.0 189.0h0M198.0 189.0h0M204.0 189.0h0M210.0 189.0h0M216.0 189.0h0M222.0 189.0h0M228.0 189.0h0M234.0 189.0h0M240.0 189.0h0M246.0 189.0h0M252.0 189.0h0M258.0 189.0h0M264.0 189.0h0M270.0 189.0h0M276.0 189.0h0M282.0 189.0h0M288.0 189.0h0M294.0 189.0h0M87.0 195.0h0M93.0 195.0h0M99.0 195.0h0M105.0 195.0h0M111.0 195.0h0M117.0 195.0h0M123.0 195.0h0M129.0 195.0h0M135.0 195.0h0M141.0 195.0h0M147.0 195.0h0M153.0 195.0h0M159.0 195.0h0M165.0 195.0h0M171.0 195.0h0M177.0 195.0h0M183.0 195.0h0M189.0 195.0h0M195.0 195.0h0M201.0 195.0h0M207.0 195.0h0M213.0 195.0h0M219.0 195.0h0M225.0 195.0h0M231.0 195.0h0M237.0 195.0h0M243.0 195.0h0M249.0 195.0h0M255.0 195.0h0M261.0 195.0h0M267.0 195.0h0M273.0 195.0h0M279.0 195.0h0M285.0 195.0h0M291.0 195.0h0M297.0 195.0h0M72.0 201.0h0M78.0 201.0h0M84.0 201.0h0M90.0 201.0h0M96.0 201.0h0M102.0 201.0h0M108.0 201.0h0M114.0 201.0h0M120.0 201.0h0M126.0 201.0h0M132.0 201.0h0M138.0 201.0h0M144.0 201.0h0M150.0 201.0h0M156.0 201.0h0M162.0 201.0h0M168.0 201.0h0M174.0 201.0h0M180.0 201.0h0M186.0 201.0h0M192.0 201.0h0M198.0 201.0h0M204.0 201.0h0M210.0 201.0h0M216.0 201.0h0M222.0 201.0h0M228.0 201.0h0M234.0 201.0h0M240.0 201.0h0M246.0 201.0h0M252.0 201.0h0M258.0 201.0h0M264.0 201.0h0M270.0 201.0h0M276.0 201.0h0M282.0 201.0h0M288.0 201.0h0M294.0 201.0h0M75.0 207.0h0M81.0 207.0h0M87.0 207.0h0M93.0 207.0h0M99.0 207.0h0M105.0 207.0h0M111.0 207.0h0M117.0 207.0h0M123.0 207.0h0M129.0 207.0h0M135.0 207.0h0M141.0 207.0h0M147.0 207.0h0M153.0 207.0h0M159.0 207.0h0M165.0 207.0h0M171.0 207.0h0M177.0 207.0h0M183.0 207.0h0M189.0 207.0h0M195.0 207.0h0M201.0 207.0h0M207.0 207.0h0M213.0 207.0h0M219.0 207.0h0M225.0 207.0h0M231.0 207.0h0M237.0 207.0h0M243.0 207.0h0M249.0 207.0h0M255.0 207.0h0M261.0 207.0h0M267.0 207.0h0M273.0 207.0h0M279.0 207.0h0M285.0 207.0h0M291.0 207.0h0M297.0 207.0h0M54.0 213.0h0M60.0 213.0h0M66.0 213.0h0M72.0 213.0h0M78.0 213.0h0M84.0 213.0h0M90.0 213.0h0M96.0 213.0h0M102.0 213.0h0M108.0 213.0h0M114.0 213.0h0M120.0 213.0h0M126.0 213.0h0M132.0 213.0h0M138.0 213.0h0M144.0 213.0h0M150.0 213.0h0M156.0 213.0h0M162.0 213.0h0M168.0 213.0h0M174.0 213.0h0M180.0 213.0h0M186.0 213.0h0M192.0 213.0h0M198.0 213.0h0M204.0 213.0h0M210.0 213.0h0M216.0 213.0h0M222.0 213.0h0M228.0 213.0h0M234.0 213.0h0M240.0 213.0h0M246.0 213.0h0M252.0 213.0h0M258.0 213.0h0M264.0 213.0h0M270.0 213.0h0M276.0 213.0h0M282.0 213.0h0M288.0 213.0h0M294.0 213.0h0M63.0 219.0h0M69.0 219.0h0M75.0 219.0h0M81.0 219.0h0M87.0 219.0h0M93.0 219.0h0M99.0 219.0h0M105.0 219.0h0M111.0 219.0h0M117.0 219.0h0M123.0 219.0h0M129.0 219.0h0M135.0 219.0h0M141.0 219.0h0M147.0 219.0h0M153.0 219.0h0M159.0 219.0h0M165.0 219.0h0M171.0 219.0h0M177.0 219.0h0M183.0 219.0h0M189.0 219.0h0M195.0 219.0h0M201.0 219.0h0M207.0 219.0h0M213.0 219.0h0M219.0 219.0h0M225.0 219.0h0M231.0 219.0h0M237.0 219.0h0M243.0 219.0h0M249.0 219.0h0M255.0 219.0h0M261.0 219.0h0M267.0 219.0h0M273.0 219.0h0M279.0 219.0h0M285.0 219.0h0M291.0 219.0h0M297.0 219.0h0M72.0 225.0h0M78.0 225.0h0M84.0 225.0h0M90.0 225.0h0M96.0 225.0h0M102.0 225.0h0M108.0 225.0h0M114.0 225.0h0M120.0 225.0h0M126.0 225.0h0M132.0 225.0h0M138.0 225.0h0M144.0 225.0h0M150.0 225.0h0M156.0 225.0h0M162.0 225.0h0M168.0 225.0h0M174.0 225.0h0M180.0 225.0h0M186.0 225.0h0M192.0 225.0h0M198.0 225.0h0M204.0 225.0h0M210.0 225.0h0M216.0 225.0h0M222.0 225.0h0M228.0 225.0h0M234.0 225.0h0M240.0 225.0h0M246.0 225.0h0M252.0 225.0h0M258.0 225.0h0M264.0 225.0h0M270.0 225.0h0M276.0 225.0h0M282.0 225.0h0M288.0 225.0h0M294.0 225.0h0M75.0 231.0h0M81.0 231.0h0M87.0 231.0h0M93.0 231.0h0M99.0 231.0h0M105.0 231.0h0M111.0 231.0h0M117.0 231.0h0M123.0 231.0h0M129.0 231.0h0M135.0 231.0h0M141.0 231.0h0M147.0 231.0h0M153.0 231.0h0M159.0 231.0h0M165.0 231.0h0M171.0 231.0h0M177.0 231.0h0M183.0 231.0h0M189.0 231.0h0M195.0 231.0h0M201.0 231.0h0M207.0 231.0h0M213.0 231.0h0M219.0 231.0h0M225.0 231.0h0M231.0 231.0h0M237.0 231.0h0M243.0 231.0h0M249.0 231.0h0M255.0 231.0h0M261.0 231.0h0M267.0 231.0h0M273.0 231.0h0M279.0 231.0h0M285.0 231.0h0M78.0 237.0h0M84.0 237.0h0M90.0 237.0h0M96.0 237.0h0M102.0 237.0h0M108.0 237.0h0M114.0 237.0h0M120.0 237.0h0M126.0 237.0h0M132.0 237.0h0M138.0 237.0h0M144.0 237.0h0M150.0 237.0h0M156.0 237.0h0M162.0 237.0h0M168.0 237.0h0M180.0 237.0h0M186.0 237.0h0M192.0 237.0h0M198.0 237.0h0M204.0 237.0h0M210.0 237.0h0M216.0 237.0h0M222.0 237.0h0M228.0 237.0h0M234.0 237.0h0M240.0 237.0h0M246.0 237.0h0M252.0 237.0h0M258.0 237.0h0M264.0 237.0h0M270.0 237.0h0M276.0 237.0h0M282.0 237.0h0M75.0 243.0h0M81.0 243.0h0M87.0 243.0h0M93.0 243.0h0M99.0 243.0h0M105.0 243.0h0M111.0 243.0h0M117.0 243.0h0M123.0 243.0h0M129.0 243.0h0M135.0 243.0h0M141.0 243.0h0M147.0 243.0h0M153.0 243.0h0M159.0 243.0h0M165.0 243.0h0M177.0 243.0h0M183.0 243.0h0M189.0 243.0h0M195.0 243.0h0M201.0 243.0h0M207.0 243.0h0M213.0 243.0h0M219.0 243.0h0M225.0 243.0h0M231.0 243.0h0M237.0 243.0h0M243.0 243.0h0M249.0 243.0h0M255.0 243.0h0M261.0 243.0h0M267.0 243.0h0M273.0 243.0h0M279.0 243.0h0M78.0 249.0h0M84.0 249.0h0M90.0 249.0h0M96.0 249.0h0M102.0 249.0h0M108.0 249.0h0M114.0 249.0h0M120.0 249.0h0M126.0 249.0h0M132.0 249.0h0M138.0 249.0h0M144.0 249.0h0M150.0 249.0h0M156.0 249.0h0M162.0 249.0h0M186.0 249.0h0M192.0 249.0h0M198.0 249.0h0M204.0 249.0h0M210.0 249.0h0M216.0 249.0h0M222.0 249.0h0M228.0 249.0h0M234.0 249.0h0M240.0 249.0h0M246.0 249.0h0M252.0 249.0h0M258.0 249.0h0M264.0 249.0h0M270.0 249.0h0M276.0 249.0h0M75.0 255.0h0M81.0 255.0h0M87.0 255.0h0M93.0 255.0h0M99.0 255.0h0M105.0 255.0h0M111.0 255.0h0M117.0 255.0h0M123.0 255.0h0M129.0 255.0h0M153.0 255.0h0M159.0 255.0h0M165.0 255.0h0M189.0 255.0h0M195.0 255.0h0M201.0 255.0h0M207.0 255.0h0M213.0 255.0h0M219.0 255.0h0M225.0 255.0h0M231.0 255.0h0M237.0 255.0h0M243.0 255.0h0M249.0 255.0h0M255.0 255.0h0M261.0 255.0h0M267.0 255.0h0M273.0 255.0h0M24.0 261.0h0M30.0 261.0h0M36.0 261.0h0M42.0 261.0h0M48.0 261.0h0M54.0 261.0h0M60.0 261.0h0M66.0 261.0h0M72.0 261.0h0M78.0 261.0h0M84.0 261.0h0M90.0 261.0h0M96.0 261.0h0M102.0 261.0h0M120.0 261.0h0M156.0 261.0h0M162.0 261.0h0M168.0 261.0h0M174.0 261.0h0M198.0 261.0h0M204.0 261.0h0M210.0 261.0h0M216.0 261.0h0M222.0 261.0h0M228.0 261.0h0M234.0 261.0h0M240.0 261.0h0M246.0 261.0h0M252.0 261.0h0M258.0 261.0h0M264.0 261.0h0M270.0 261.0h0M21.0 267.0h0M27.0 267.0h0M33.0 267.0h0M39.0 267.0h0M45.0 267.0h0M51.0 267.0h0M57.0 267.0h0M63.0 267.0h0M69.0 267.0h0M75.0 267.0h0M81.0 267.0h0M87.0 267.0h0M93.0 267.0h0M99.0 267.0h0M141.0 267.0h0M159.0 267.0h0M165.0 267.0h0M171.0 267.0h0M177.0 267.0h0M207.0 267.0h0M213.0 267.0h0M219.0 267.0h0M225.0 267.0h0M231.0 267.0h0M237.0 267.0h0M243.0 267.0h0M249.0 267.0h0M255.0 267.0h0M261.0 267.0h0M267.0 267.0h0M24.0 273.0h0M30.0 273.0h0M36.0 273.0h0M42.0 273.0h0M48.0 273.0h0M54.0 273.0h0M60.0 273.0h0M66.0 273.0h0M72.0 273.0h0M78.0 273.0h0M84.0 273.0h0M90.0 273.0h0M96.0 273.0h0M102.0 273.0h0M144.0 273.0h0M168.0 273.0h0M174.0 273.0h0M180.0 273.0h0M216.0 273.0h0M222.0 273.0h0M228.0 273.0h0M234.0 273.0h0M240.0 273.0h0M246.0 273.0h0M252.0 273.0h0M258.0 273.0h0M264.0 273.0h0M270.0 273.0h0M27.0 279.0h0M33.0 279.0h0M39.0 279.0h0M45.0 279.0h0M51.0 279.0h0M57.0 279.0h0M63.0 279.0h0M69.0 279.0h0M75.0 279.0h0M81.0 279.0h0M87.0 279.0h0M93.0 279.0h0M171.0 279.0h0M177.0 279.0h0M183.0 279.0h0M189.0 279.0h0M219.0 279.0h0M225.0 279.0h0M231.0 279.0h0M237.0 279.0h0M243.0 279.0h0M249.0 279.0h0M255.0 279.0h0M261.0 279.0h0M267.0 279.0h0M273.0 279.0h0M24.0 285.0h0M30.0 285.0h0M36.0 285.0h0M42.0 285.0h0M48.0 285.0h0M54.0 285.0h0M60.0 285.0h0M66.0 285.0h0M72.0 285.0h0M78.0 285.0h0M84.0 285.0h0M144.0 285.0h0M180.0 285.0h0M186.0 285.0h0M192.0 285.0h0M198.0 285.0h0M204.0 285.0h0M216.0 285.0h0M222.0 285.0h0M228.0 285.0h0M234.0 285.0h0M240.0 285.0h0M264.0 285.0h0M21.0 291.0h0M27.0 291.0h0M33.0 291.0h0M39.0 291.0h0M45.0 291.0h0M51.0 291.0h0M57.0 291.0h0M63.0 291.0h0M69.0 291.0h0M75.0 291.0h0M81.0 291.0h0M141.0 291.0h0M147.0 291.0h0M189.0 291.0h0M195.0 291.0h0M219.0 291.0h0M225.0 291.0h0M231.0 291.0h0M237.0 291.0h0M24.0 297.0h0M30.0 297.0h0M36.0 297.0h0M42.0 297.0h0M48.0 297.0h0M54.0 297.0h0M60.0 297.0h0M66.0 297.0h0M72.0 297.0h0M78.0 297.0h0M144.0 297.0h0M192.0 297.0h0M222.0 297.0h0M228.0 297.0h0M234.0 297.0h0M27.0 303.0h0M33.0 303.0h0M39.0 303.0h0M45.0 303.0h0M51.0 303.0h0M57.0 303.0h0M63.0 303.0h0M69.0 303.0h0M75.0 303.0h0M189.0 303.0h0M195.0 303.0h0M225.0 303.0h0M231.0 303.0h0M237.0 303.0h0M24.0 309.0h0M30.0 309.0h0M36.0 309.0h0M42.0 309.0h0M48.0 309.0h0M54.0 309.0h0M60.0 309.0h0M66.0 309.0h0M72.0 309.0h0M168.0 309.0h0M174.0 309.0h0M180.0 309.0h0M186.0 309.0h0M228.0 309.0h0M234.0 309.0h0M240.0 309.0h0M27.0 315.0h0M33.0 315.0h0M39.0 315.0h0M45.0 315.0h0M51.0 315.0h0M57.0 315.0h0M63.0 315.0h0M69.0 315.0h0M147.0 315.0h0M177.0 315.0h0M183.0 315.0h0M231.0 315.0h0M237.0 315.0h0M42.0 321.0h0M48.0 321.0h0M90.0 321.0h0M96.0 321.0h0M102.0 321.0h0M108.0 321.0h0M114.0 321.0h0M120.0 321.0h0M126.0 321.0h0M132.0 321.0h0M138.0 321.0h0M144.0 321.0h0M150.0 321.0h0M156.0 321.0h0M45.0 327.0h0M81.0 327.0h0M87.0 327.0h0M93.0 327.0h0M99.0 327.0h0M105.0 327.0h0M111.0 327.0h0M117.0 327.0h0M123.0 327.0h0M129.0 327.0h0M135.0 327.0h0M141.0 327.0h0M147.0 327.0h0M153.0 327.0h0M42.0 333.0h0M48.0 333.0h0M54.0 333.0h0M60.0 333.0h0M66.0 333.0h0M72.0 333.0h0M78.0 333.0h0M84.0 333.0h0M90.0 333.0h0M96.0 333.0h0M102.0 333.0h0M108.0 333.0h0M114.0 333.0h0M120.0 333.0h0M126.0 333.0h0M132.0 333.0h0M138.0 333.0h0M144.0 333.0h0M150.0 333.0h0M39.0 339.0h0M45.0 339.0h0M51.0 339.0h0M57.0 339.0h0M63.0 339.0h0M69.0 339.0h0M75.0 339.0h0M81.0 339.0h0M87.0 339.0h0M93.0 339.0h0M99.0 339.0h0M105.0 339.0h0M111.0 339.0h0M117.0 339.0h0M123.0 339.0h0M129.0 339.0h0M135.0 339.0h0M141.0 339.0h0M147.0 339.0h0M153.0 339.0h0"/>
+        <path class="route-path-bg" d="M155.1 75.3 Q60 190 51.7 319"/>
+        <path class="route-path" id="route-path" d="M155.1 75.3 Q60 190 51.7 319" pathLength="100"/>
+        <g class="pin pin-from"><circle class="pulse" cx="155.1" cy="75.3" r="4"/><circle cx="155.1" cy="75.3" r="4"/></g>
+        <g class="pin pin-to" id="pin-to"><circle class="pulse" cx="51.7" cy="319" r="4"/><circle cx="51.7" cy="319" r="4"/></g>
+        <text class="map-label" id="map-label-from" x="163" y="72">OSLO</text>
+        <text class="map-label map-label-to" id="map-label-to" x="62" y="323">? ? ?</text>
+        <g id="map-plane" class="map-plane"><use href="#i-plane" x="-10" y="-10" width="20" height="20"/></g>
+      </svg>
+    </div>
+    <div class="route-facts mono" aria-hidden="true">
+      <div><span>From</span><b data-cfg="fromCode">OSL</b></div>
+      <div><span>Distance</span><b><i id="km">0</i> km</b></div>
+      <div><span>To</span><b id="route-to">???</b></div>
+    </div>
+    <p class="route-note">A symbolic route, not a real booking.</p>
+  </section>
+
+  <!-- SCREEN 6 — COUNTDOWN + REVEAL -->
+  <section class="screen dark" id="s-reveal" aria-labelledby="reveal-title">
+    <div class="reveal" id="reveal">
+      <div class="hero" aria-hidden="true">
+        <svg class="hero-fallback" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice">
+          <defs><linearGradient id="hf-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3C5F8C"/><stop offset=".6" stop-color="#E6A77B"/><stop offset="1" stop-color="#F3CFA0"/></linearGradient></defs>
+          <rect width="400" height="250" fill="url(#hf-sky)"/>
+          <circle cx="300" cy="120" r="24" fill="#FFF1C9"/>
+          <path d="M0 150 60 128 120 140 170 118 230 136 300 120 400 138V170H0z" fill="#9C7A6A" opacity=".6"/>
+          <path d="M96 170v-34h44v34zM100 136v-26h12v26z" fill="#E9D3B1"/>
+          <path d="M330 170l3-40h8l3 40z" fill="#FFFCF5"/>
+          <rect y="168" width="400" height="82" fill="#0F4C75"/>
+        </svg>
+        <div class="photo-img hero-photo" data-img="reveal"></div>
+        <div class="hero-shade"></div>
+        <span class="hero-coords mono" id="hero-coords">36.72° N · 4.42° W</span>
+      </div>
+
+      <div class="reveal-head">
+        <p class="eyebrow gold-text r-pack">PACK YOUR BAGS!</p>
+        <h2 class="r-city" id="reveal-title" aria-label="Málaga"><span aria-hidden="true" id="r-city-letters">MÁLAGA</span></h2>
+        <p class="r-region mono">SPAIN · COSTA DEL SOL</p>
+        <p class="r-going" id="r-going">WE'RE GOING TO <span class="nw">MÁLAGA! ☀️🇪🇸</span></p>
+      </div>
+
+      <div class="reveal-body">
+        <p class="r-lines">Sunshine, beautiful beaches, great food, a little wine, and a few days to disconnect.</p>
+        <div class="gallery" aria-hidden="true">
+          <figure><div class="photo-img" data-img="g1"></div><figcaption>The port</figcaption></figure>
+          <figure><div class="photo-img" data-img="g2"></div><figcaption>La Alcazaba</figcaption></figure>
+          <figure><div class="photo-img" data-img="g3"></div><figcaption>La Malagueta</figcaption></figure>
+        </div>
+        <p class="r-sign">I'll take care of the destination. You just bring your best holiday mood. 😉</p>
+        <button class="btn btn-gold" id="btn-pass" type="button">REVEAL MY TICKET ✈️</button>
+      </div>
+    </div>
+
+    <div class="countdown" id="countdown" hidden>
+      <div class="letterbox lb-top"></div>
+      <div class="letterbox lb-bottom"></div>
+      <p class="cd-label mono">Now boarding · Flight PE 2026</p>
+      <div class="cd-dial">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <circle class="cd-track" cx="100" cy="100" r="90"/>
+          <circle class="cd-ring" id="cd-ring" cx="100" cy="100" r="90" pathLength="100"/>
+        </svg>
+        <span id="count-num" aria-live="assertive">3</span>
+      </div>
+      <p class="cd-sub" id="cd-sub">Fasten your seatbelt</p>
+    </div>
+    <div class="flash" id="flash" aria-hidden="true"></div>
+  </section>
+
+  <!-- SCREEN 7 — BOARDING PASS -->
+  <section class="screen" id="s-pass" aria-labelledby="pass-title">
+    <p class="eyebrow gold-deep">Your gift</p>
+    <h2 class="display pass-heading" id="pass-title">Boarding pass</h2>
+
+    <article class="ticket" id="pass">
+      <div class="t-main">
+        <header class="t-head">
+          <div>
+            <span class="t-brand">THE PERFECT ESCAPE</span>
+            <span class="t-sub mono">Gift voucher · Nº 0001 · Class: First</span>
+          </div>
+          <div class="seal" aria-hidden="true"><span>PE</span></div>
+        </header>
+
+        <div class="t-route">
+          <div><span class="iata" data-cfg="fromCode">OSL</span><span class="city mono"><span data-cfg="fromCity">Oslo</span>, <span data-cfg="fromCountry">Norway</span></span></div>
+          <div class="t-arc" aria-hidden="true">
+            <svg viewBox="0 0 120 40"><path d="M6 32 Q60 -6 114 32" fill="none" stroke="#D7A85E" stroke-width="1.5" stroke-dasharray="3 4" stroke-linecap="round"/><g transform="translate(60 13) rotate(90)"><use href="#i-plane" x="-9" y="-9" width="18" height="18" style="color:#10283F"/></g></svg>
+          </div>
+          <div class="ta-r"><span class="iata" data-cfg="toCode">AGP</span><span class="city mono"><span data-cfg="toCity">Málaga</span>, <span data-cfg="toCountry">Spain</span></span></div>
+        </div>
+
+        <dl class="fields">
+          <div class="span-2"><dt>Passenger</dt><dd class="hand" data-cfg="passenger">Mamasita</dd></div>
+          <div><dt>From</dt><dd><span data-cfg="fromCity">Oslo</span>, <span data-cfg="fromCountry">Norway</span></dd></div>
+          <div><dt>Destination</dt><dd class="gold-deep"><span data-cfg="toCity">Málaga</span>, <span data-cfg="toCountry">Spain</span></dd></div>
+          <div><dt>Transport</dt><dd><span class="nw"><span data-cfg="transport">Airplane</span> ✈️</span></dd></div>
+          <div><dt>Boats</dt><dd class="nw" data-cfg="boats">Absolutely none 😂</dd></div>
+          <div><dt>Departure</dt><dd data-cfg="departure">To be decided</dd></div>
+          <div><dt>Return</dt><dd data-cfg="returnDate">To be decided</dd></div>
+          <div class="span-2"><dt>Status</dt><dd class="status" id="pass-status">Adventure awaits</dd></div>
+        </dl>
+
+        <svg class="skyline" viewBox="0 0 320 44" aria-hidden="true">
+          <g fill="none" stroke="#D7A85E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M0 40h320"/>
+            <path d="M20 40c2-12 3-20 7-28M27 12c-6-5-12-4-16-1M27 12c4-5 10-6 15-3M27 12c-6 1-10 4-11 8M27 12c6 1 9 5 9 9"/>
+            <path d="M60 40V22h22v18M64 22V10h6v12M67 10V5M70 22c2-6 10-6 12 0"/>
+            <path d="M120 40c10-12 22-18 36-18s24 6 32 18M146 22v-6h4v3h4v-3h4v3h4v-3h4v6"/>
+            <path d="M232 40l2-24h6l2 24M233 16h8M237 16v-5"/>
+            <path d="M280 40c-1-10-3-18-6-24M274 16c5-4 11-4 14-1M274 16c-4-4-10-5-14-2M274 16c5 1 8 4 8 8M274 16c-5 1-7 4-7 8"/>
+            <path d="M190 34c6 0 6-2 12-2s6 2 12 2"/>
+          </g>
+        </svg>
+        <p class="t-footer">Good company, great memories, and a little sunshine.</p>
+        <div class="accepted-stamp" id="accepted-stamp" aria-hidden="true">ACCEPTED</div>
+      </div>
+
+      <div class="t-stub">
+        <span class="mono stub-title">Boarding pass</span>
+        <div class="stub-route"><b data-cfg="fromCode">OSL</b><svg aria-hidden="true"><use href="#i-plane"/></svg><b data-cfg="toCode">AGP</b></div>
+        <div class="stub-grid">
+          <div class="stub-row"><span>Passenger</span><strong data-cfg="passenger">Mamasita</strong></div>
+          <div class="stub-row"><span>Seat</span><strong>Window</strong></div>
+          <div class="stub-row"><span>Gate</span><strong>Surprise</strong></div>
+          <div class="stub-row"><span>Valid for</span><strong>One escape</strong></div>
+        </div>
+        <div class="barcode" aria-hidden="true"></div>
+        <span class="mono stub-note">Symbolic gift voucher · not an airline ticket or booking</span>
+      </div>
+    </article>
+
+    <div class="accept-card" id="accept-card" hidden>
+      <p class="ac-title">Excellent choice.</p>
+      <p class="ac-line">I was hoping you'd say yes. 😉</p>
+    </div>
+
+    <div class="pass-actions">
+      <button class="btn btn-primary" id="btn-accept" type="button">ACCEPT THIS ADVENTURE ✈️</button>
+      <button class="btn btn-ghost" id="btn-download" type="button">DOWNLOAD YOUR GIFT 🎁</button>
+      <button class="link-btn" id="btn-print" type="button" hidden>Print-friendly version</button>
+    </div>
+    <p class="keep-tip">Keep this trip on your phone: tap <strong>Share → Add to Home Screen</strong> on iPhone, or <strong>⋮ → Add to Home screen</strong> on Android.</p>
+    <button class="link-btn" id="btn-replay" type="button">Replay the surprise</button>
+  </section>
+
+</main>
+
+<canvas id="confetti" aria-hidden="true"></canvas>
+<div class="toast" id="toast" role="status" hidden></div>
+<!--BODY-END-->
+
+<script src="img/ticket-photo.js"></script>
+<script src="script.js"></script>
+<script src="music.js"></script>
+</body>
+</html>
